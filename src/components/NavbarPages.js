@@ -13,7 +13,7 @@ const NavbarPages = () => {
         <NavContainer>
             <h1>
                 <ScrollIntoView selector="#about">
-                    <Link id="logo" to="/about">kz.</Link>
+                    <Link id="logo" to="/">kz.</Link>
                 </ScrollIntoView>
             </h1>
             <ul>
