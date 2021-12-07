@@ -1,10 +1,7 @@
 import React from 'react';
 import './Detail.css'
 import project30 from '../assets/Project/projects/project1c11.jpg'
-import project31 from '../assets/Project/projects/project1c1.jpg'
-import project32 from '../assets/Project/projects/project1c2.jpg'
-import project33 from '../assets/Project/projects/project1c3.jpg'
-import { Carousel } from 'react-bootstrap';
+import video from './../assets/My Video1.mp4'
 import { FaGithub, FaLink } from 'react-icons/fa';
 import AOS from 'aos';
 const Detailt = () => {
@@ -25,40 +22,18 @@ const Detailt = () => {
                             • Authenticated users can get information about services.
                         </h4>
                         <p data-aos="fade-left" className='text-light mt-2'><span className='fw-bold'>Tec:</span> Tailwind css, React Js</p>
-                        <a data-aos="fade-left" data-aos-delay="320" href='https://github.com/kamruz-zzaman/Life-Check' target='_blank' rel="noreferrer"><FaGithub className='fs-1 text-light mt-3 me-5'></FaGithub ></a>
-                        <a data-aos="fade-left" data-aos-delay="320" href='https://life-check-bdfbf.web.app/' target='_blank' rel="noreferrer"><FaLink className='fs-1 text-light mt-3'></FaLink></a>
+                        <a data-aos="fade-left" data-aos-delay="320" href='https://github.com/kamruz-zzaman/Life-Check' target='_blank' rel="noreferrer"><FaGithub className='fs-1 text-light mt-3 me-5' title='Github'></FaGithub ></a>
+                        <a data-aos="fade-left" data-aos-delay="320" href='https://life-check-bdfbf.web.app/' target='_blank' rel="noreferrer"><FaLink className='fs-1 text-light mt-3' title='Live-Site'></FaLink></a>
 
                     </div>
                 </div>
             </div>
             <div className='margi'>
                 <div className='text-center mt-5 fw-bolder fs-2'>
-                    <span className='text-light text-center '><u>More Pics</u></span><hr />
+                    <span className='text-light text-center '><u>Website Access Video</u></span><hr />
                 </div>
-                <div className=' d-flex justify-content-center align-items-center'>
-                    <Carousel fade className=' w-75'>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={project31}
-                                alt="First slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={project32}
-                                alt="Second slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={project33}
-                                alt="Third slide"
-                            />
-                        </Carousel.Item>
-                    </Carousel>
+                <div className='container d-flex justify-content-center align-items-center'>
+                    <video width='100%' controls autoPlay> <source src={video} type="video/mp4" /></video>
                 </div>
             </div>
         </div>

@@ -40,8 +40,8 @@ const SkillsSection = () => {
                     <img src={js} alt="javascript" title='javascript' />
                     <img src={react} alt="styledc" title='react' />
                     <img src={nodejs} alt="node js" title='node js' />
-                    <img src={expressjs} alt="express js" title='express js' />
-                    <img src={nextjs} alt="next js" title='next js' />
+                    <img src={expressjs} className='bg-light p-2 rounded' alt="express js" title='express js' />
+                    <img src={nextjs} className='bg-light p-2 rounded' alt="next js" title='next js' />
                     <img src={mongodb} alt="mongodb" title='mongodb' />
                     <img src={redux} alt="redux" title='redux' />
                     <img src={git} alt="git" title='git' />
