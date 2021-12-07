@@ -30,14 +30,14 @@ const AboutSection = () => {
                             <H2 ><span>
                                 <TypewriterComponent
                                     options={{
-                                        strings: ['Front-End Developer', 'React Developer', 'Web Developer'],
+                                        strings: ['Mern Stack Developer', 'Front-End Developer', 'React Developer', 'Web Developer'],
                                         autoStart: true,
                                         loop: true,
                                     }}
                                 /></span></H2>
                         </BigText>
                     </div>
-                    <P data-aos="fade-up" >I am a Fron-End developer and I’m student of BSc in CSE. I am working very passionate about
+                    <P data-aos="fade-up" >I’m student of BSc in CSE. I am working very passionate about
                         programming. I love to explore new programming technologies and try to apply in my projects. I am
                         always wanting to do my best about the UI and UX of my projects. I'm always eager to learn from
                         anyone and everyone.
