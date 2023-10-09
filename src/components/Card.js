@@ -3,7 +3,7 @@ import './Card.css'
 
 
 
-const Card = ({ item: { title, image, link } }) => {
+const Card = ({ item: { title, image, id } }) => {
 
     return (
         <>
@@ -22,7 +22,7 @@ const Card = ({ item: { title, image, link } }) => {
                         <div className="h-bg-inner"></div>
                     </div>
 
-                    <Link to={`${link}`} className='cart'>
+                    <Link to={`details/${id}`} className='cart'>
                         <span className="add-to-cart">
                             <span className="txt">Details</span>
                         </span>

@@ -1,5 +1,6 @@
 import React from 'react';
 import bootstrap from '../assets/bootstrap.svg';
+import materialui from '../assets/material-ui.svg';
 import css from '../assets/css.svg';
 import figma from '../assets/figma.svg';
 import git from '../assets/git.svg';
@@ -16,6 +17,10 @@ import expressjs from '../assets/expressjs.svg'
 import nextjs from '../assets//nextjs.svg'
 import tailwindcss from '../assets/tailwind-css.svg'
 import nodejs from '../assets/node-js.svg'
+import php from '../assets/php.svg'
+import mysql from '../assets/mysql.svg'
+import gitlab from '../assets/gitlab.svg'
+import xampp from '../assets/xampp.svg'
 import photoshop from '../assets/adobe-photoshop.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,15 +42,20 @@ const SkillsSection = () => {
                     <img src={css} alt="css" title='css' />
                     <img src={bootstrap} alt="bootstrap" title='bootstrap' />
                     <img src={tailwindcss} alt="tailwind css" title='tailwind css' />
-                    <img src={js} alt="javascript" title='javascript' />
-                    <img src={react} alt="styledc" title='react' />
+                    <img src={materialui} alt="Material Ui" title='Material Ui' />
                     <img src={nodejs} alt="node js" title='node js' />
+                    <img src={js} alt="javascript" title='javascript' />
+                    <img src={php} alt="php" title='php' />
+                    <img src={react} alt="styledc" title='react' />
                     <img src={expressjs} className='bg-light p-2 rounded' alt="express js" title='express js' />
                     <img src={nextjs} className='bg-light p-2 rounded' alt="next js" title='next js' />
                     <img src={mongodb} alt="mongodb" title='mongodb' />
+                    <img src={mysql} alt="mysql" title='mysql' />
                     <img src={redux} alt="redux" title='redux' />
+                    <img src={xampp} alt="xampp" title='xampp' />
                     <img src={git} alt="git" title='git' />
                     <img src={github} alt="github" title='github' />
+                    <img src={gitlab} alt="gitlab" title='gitlab' />
                     <img src={vscode} alt="vscode" title='vs code' />
                     <img src={termin} alt="terminal" title='terminal' />
                     <img src={figma} alt="figma" title='figma' />

@@ -1,44 +1,31 @@
-import project1 from './assets/Project/project-11.jpg'
-import project2 from './assets/Project/project-10.jpg'
-import project3 from './assets/Project/project-9.jpg'
-import project1d from './assets/Project/projects/web.app.jpg'
-import project1d2 from './assets/Project/projects/web.app2.jpg'
-import project1d3 from './assets/Project/projects/web.app3.jpg'
-
+import theranautilis_cover from './assets/Project/theranautilis.png'
+import theranautilis from './assets/Project/theranautilis1.png'
+import theranautilis2 from './assets/Project/theranautilis2.png'
+import theranautilis3 from './assets/Project/theranautilis3.png'
+import theranautilis4 from './assets/Project/theranautilis4.png'
+import theranautilis5 from './assets/Project/theranautilis5.png'
+import theranautilis6 from './assets/Project/theranautilis6.png'
+import theranautilis7 from './assets/Project/theranautilis7.png'
 
 const contentCard = [
     {
         id: 1,
-        title: 'Drone Peak',
-        body: 'System That Can Monitor Larger Airspace to Identify a Single Drone or a Swarm of Drones. ',
-        image: `${project1}`,
-        link: '/detailo',
-        projectImg: `${project1d}`,
-        projectImg2: `${project1d2}`,
-        projectImg3: `${project1d3}`,
-        detail: "Users Can Sign up and Log in. Users can buy Drones, manage their orders, delete their orders, add reviews. Admin can add Product, delete Product, see all orders, manage orders, and can make an admin"
-    },
-    {
-        id: 2,
-        title: 'Dare to Dream',
-        body: "Let's start your journey with us, your dream will come true.",
-        image: `${project2}`,
-        link: '/details',
-        projectImg: `${project1d}`,
-        projectImg2: `${project1d2}`,
-        projectImg3: `${project1d3}`,
-        detail: "All users can visit the home page.An User can Booked her/his interested Tourist Spot. User can see destination details, book destination, add a destination, see their orders, see all orders, and can add a destination."
-    },
-    {
-        id: 3,
-        title: 'Life Check',
-        body: "Accidents happen, injuries occur and illnesses crop up, but you or your loved one won’t face them alone.",
-        image: `${project3}`,
-        link: '/detailt',
-        projectImg: `${project1d}`,
-        projectImg2: `${project1d2}`,
-        projectImg3: `${project1d3}`,
-        detail: "Authenticated users can book ambulances and beds for patients.User can purchase any service.Authenticated users can get information about services."
+        title: 'THERANAUTILIS',
+        image: `${theranautilis_cover}`,
+        images: [theranautilis, theranautilis2, theranautilis3, theranautilis4, theranautilis5, theranautilis6, theranautilis7],
+        details: 'Theranautilus, one of the first nanorobotics companies globally, wishes to translate the result of a decade of research and development in nanorobotics from laboratory to clinics. We are a hardware company specializing in instruments for fabricating nanorobots, safe deployment of nanorobots in living systems, and mechanisms to maneuver them to their target inside the body remotely.',
+        features: [
+            'Map Integrated Contact Us',
+            'Blogs',
+            'Our Services/Technology',
+            'FAQS',
+            'Enquiry Registration'
+        ],
+        tech: [
+            'Tailwind CSS', 'React Js', 'Express Js', 'Mongo DB', 'AWS '
+        ],
+        live_link: 'https://theranautilus.com/'
+
     }
 ]
 

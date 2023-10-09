@@ -11,10 +11,9 @@ import AnimatedCursor from "react-animated-cursor"
 import HashLoader from "react-spinners/HashLoader";
 import './app.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Detail from './components/Detail';
 import Curly from './components/Curly'
 import Details from './components/Details';
-import Detailt from './components/Detailt';
+import Error404 from './Error404';
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -39,61 +38,69 @@ function App() {
             innerScale={1.5}
             outerScale={5}
           />
-          <NavbarPages />
-          <NavBurgerMenu />
           <Switch>
             <Route exact path='/'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
               <ContactSection />
+              <FooterSection />
             </Route>
-            <Route path='/details'>
+            <Route path='/details/:id'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <Curly />
-              <Details></Details>
-            </Route>
-            <Route path='/detailo'>
-              <GlobalStyle />
-              <Curly />
-              <Detail></Detail>
-            </Route>
-            <Route path='/detailt'>
-              <GlobalStyle />
-              <Curly />
-              <Detailt></Detailt>
+              <Details />
+              <FooterSection />
             </Route>
             <Route path='/about'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
               <ContactSection />
+              <FooterSection />
             </Route>
             <Route path='/skills'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
               <ContactSection />
+              <FooterSection />
             </Route>
             <Route path='/projects'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
               <ContactSection />
+              <FooterSection />
             </Route>
             <Route path='/contact'>
+              <NavbarPages />
+              <NavBurgerMenu />
               <GlobalStyle />
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
               <ContactSection />
+              <FooterSection />
+            </Route>
+            <Route path='*'>
+              <Error404></Error404>
             </Route>
           </Switch>
-          <FooterSection />
         </BrowserRouter>}
     </div>
   );

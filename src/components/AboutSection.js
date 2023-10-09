@@ -37,10 +37,7 @@ const AboutSection = () => {
                                 /></span></H2>
                         </BigText>
                     </div>
-                    <P data-aos="fade-up" >I’m student of BSc in CSE. I am working very passionate about
-                        programming. I love to explore new programming technologies and try to apply in my projects. I am
-                        always wanting to do my best about the UI and UX of my projects. I'm always eager to learn from
-                        anyone and everyone.
+                    <P data-aos="fade-up" >I am Kamruzzaman, a passionate web developer driven by the endless possibilities of the digital world. My journey in web development is a thrilling exploration of the intersection between art and technology, where lines of code transform into captivating, seamless web experiences. With expertise in React, frontend development, and the MERN stack, I craft web applications that not only function flawlessly but also delight users with their aesthetic and interactive design. What fuels my creativity is the ever-evolving nature of web development, and I thrive on pushing the boundaries of what's possible.
                     </P>
                     <Resume />
 
