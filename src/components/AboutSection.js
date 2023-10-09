@@ -1,5 +1,5 @@
 import React from 'react';
-import profile1 from '../assets/Project/projects/profile-1.jpg';
+import profile1 from '../assets/Project/projects/profile-2.jpg';
 import styled from 'styled-components';
 import Curly from './Curly'
 import Connect from './Connect'
