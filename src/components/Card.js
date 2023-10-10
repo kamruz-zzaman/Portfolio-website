@@ -9,7 +9,7 @@ const Card = ({ item: { title, image, id } }) => {
         <>
             <div className="el-wrapper" data-aos="zoom-in" >
                 <div className="box-up">
-                    <img className="img" width='500px' src={image} alt="" />
+                    <img className="img" width='100%' src={image} alt="" />
                     <div className="img-info">
                         <div className="info-inner">
                             <span className="p-name">{title}</span>
