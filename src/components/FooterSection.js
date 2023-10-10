@@ -5,7 +5,7 @@ const FooterSection = () => {
     return (
         <>
             <Div>
-                <H4>All right reserved by ©Kamruzzaman 2021</H4>
+                <H4>All right reserved by ©Kamruzzaman 2023</H4>
             </Div>
         </>
     )

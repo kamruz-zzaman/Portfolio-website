@@ -36,7 +36,6 @@ const NavbarPages = () => {
                         initial={{ width: '0%' }}
                         animate={{ width: pathname === '/skills' ? '77%' : "0" }}
                     />
-
                 </li>
                 <li>
                     <ScrollIntoView selector="#projects">
@@ -46,6 +45,16 @@ const NavbarPages = () => {
                         transition={{ duration: 0.75 }}
                         initial={{ width: '0%' }}
                         animate={{ width: pathname === '/projects' ? '70%' : "0" }}
+                    />
+                </li>
+                <li>
+                    <ScrollIntoView selector="#experience">
+                        <Link to="/experience" activeStyle={activeStyle}>Experiences</Link>
+                    </ScrollIntoView>
+                    <NavLine
+                        transition={{ duration: 0.75 }}
+                        initial={{ width: '0%' }}
+                        animate={{ width: pathname === '/experience' ? '65%' : "0" }}
                     />
                 </li>
                 <li>

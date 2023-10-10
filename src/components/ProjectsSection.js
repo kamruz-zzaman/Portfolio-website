@@ -13,7 +13,7 @@ const ProjectsSection = () => {
         <>
             <H2>Projects</H2>
 
-            <div className=" page-wrapper">
+            <div className="page-wrapper">
                 <div className="page-inner">
                     <div className="row">
                         <ProjectContainer className="cards" id="projects" >
@@ -33,7 +33,8 @@ const ProjectContainer = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
     justify-content: center;
-    margin: 3rem;
+    margin-left: 15vh; 
+    margin-right: 15vh;
     @media (max-width: 768px){
         grid-template-columns: auto;
         margin: 2rem;

@@ -14,6 +14,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Curly from './components/Curly'
 import Details from './components/Details';
 import Error404 from './Error404';
+import ExpSection from './components/ExpSection';
 
 function App() {
   let [loading, setLoading] = useState(true);
@@ -46,6 +47,7 @@ function App() {
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
+              <ExpSection />
               <ContactSection />
               <FooterSection />
             </Route>
@@ -64,6 +66,7 @@ function App() {
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
+              <ExpSection />
               <ContactSection />
               <FooterSection />
             </Route>
@@ -74,6 +77,7 @@ function App() {
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
+              <ExpSection />
               <ContactSection />
               <FooterSection />
             </Route>
@@ -84,6 +88,18 @@ function App() {
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
+              <ExpSection />
+              <ContactSection />
+              <FooterSection />
+            </Route>
+            <Route path='/experience'>
+              <NavbarPages />
+              <NavBurgerMenu />
+              <GlobalStyle />
+              <AboutSection />
+              <SkillsSection />
+              <ProjectsSection />
+              <ExpSection />
               <ContactSection />
               <FooterSection />
             </Route>
@@ -94,6 +110,7 @@ function App() {
               <AboutSection />
               <SkillsSection />
               <ProjectsSection />
+              <ExpSection />
               <ContactSection />
               <FooterSection />
             </Route>

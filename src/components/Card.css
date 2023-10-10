@@ -1,5 +1,3 @@
-
-
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,6 +28,10 @@
 .page-wrapper .page-inner {
   display: table-cell;
   vertical-align: middle;
+}
+
+.exp-background {
+  background-color: #072739;
 }
 
 .el-wrapper {
@@ -168,6 +170,7 @@
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 .info-inner .p-company {
