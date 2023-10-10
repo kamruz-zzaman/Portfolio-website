@@ -45,7 +45,7 @@ const AboutSection = () => {
                 <div className="image-section">
                     <Img data-aos="fade-left"
                         src={profile1}
-                        alt="andreea egli" />
+                        alt="KamRuzzaman" />
                     <Connect />
                 </div>
 
